@@ -15,6 +15,8 @@ python mongotosql.py
 
 ## Wrapper script
 
+A script that performs simple checks for referential integrity in CassendraDB.
+
 - Setup Cassandra and run the server.
 - Now, run
 ```
@@ -33,6 +35,8 @@ python removeCass.py
 
 
 ## API
+
+A simple API program using flask and OpenCV which takes an image from client and detects faces.
 
 - Run
 ```
