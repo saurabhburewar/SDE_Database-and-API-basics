@@ -2,16 +2,15 @@
 
 ## MongoDB to MySQL
 
-Steps to follow 
+This program transfers data from MongoDB database to an SQL table. If left running in the background, it also detects the changes in MongoDB database and updates the SQL table accordingly.
 - Setup and get the Mongo server and MySQL server running.
 - Create the database in Mongo and add documents in the collection using Mongo shell.
 - Also, create a new database 'librarydb' to connect to in MySQL.
 - Then, run
-'''
+```
 python mongotosql.py
-'''
-
-Keep this program running. Now, you can test by opening the Mongo shell and adding documents.
+```
+- Keep this program running. Now, you can test by opening the Mongo shell and adding documents.
 
 
 Wrapper script
