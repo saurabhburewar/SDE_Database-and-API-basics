@@ -13,8 +13,8 @@ python mongotosql.py
 - Keep this program running. Now, you can test by opening the Mongo shell and adding documents.
 
 
-Wrapper script
---------------
+## Wrapper script
+
 - Setup Cassandra and run the server.
 - Now, run
 ```
@@ -32,9 +32,9 @@ python removeCass.py
 - This script enforces referential integrity.
 
 
-API
----
-Run
+## API
+
+- Run
 ```
 python server.py
 ```
