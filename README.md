@@ -15,23 +15,27 @@ python mongotosql.py
 
 Wrapper script
 --------------
-Setup Cassandra and run the server.
-Now, run -
-    python prepareCassandra.py
-
-This will prepare the tables with some data.
-Now, run -
-    python refint.py
-
-While it is running, to remove an entry from Books table, run -
-    python removeCass.py
-
-This script enforces referential integrity.
+- Setup Cassandra and run the server.
+- Now, run
+```
+python prepareCassandra.py
+```
+- This will prepare the tables with some data.
+- Now, run
+```
+python refint.py
+```
+- While it is running, to remove an entry from Books table, run
+```
+python removeCass.py
+```
+- This script enforces referential integrity.
 
 
 API
 ---
-Run -
-    python server.py
-
-Now, you can open the url given in 'client.py' in a browser window. Here, upload the images to see the result.
+Run
+```
+python server.py
+```
+- Now, you can open the url given in 'client.py' in a browser window. Here, upload the images to see the result.
